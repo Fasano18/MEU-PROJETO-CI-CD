@@ -12,12 +12,12 @@ function App() {
     <div className="app">
       <header className="header">
         <nav>
-          <div className="logo">AI Agents</div>
+          <div className="logo">AI AGENTS</div>
           <button className="menu-button" onClick={toggleMenu} aria-label="Menu">
             <span className={`hamburger ${isMenuOpen ? 'open' : ''}`}></span>
           </button>
           <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-            <li><a href="#home" onClick={() => setIsMenuOpen(false)}>Home</a></li>
+            <li><a href="#home" onClick={() => setIsMenuOpen(false)}>Início</a></li>
             <li><a href="#sobre" onClick={() => setIsMenuOpen(false)}>Sobre</a></li>
             <li><a href="#recursos" onClick={() => setIsMenuOpen(false)}>Recursos</a></li>
             <li><a href="#contato" onClick={() => setIsMenuOpen(false)}>Contato</a></li>
@@ -28,50 +28,50 @@ function App() {
       <main>
         <section id="home" className="hero">
           <div className="hero-content">
-            <h1>O Futuro da Inteligência Artificial</h1>
-            <p>Descubra como os agentes de IA estão transformando a maneira como interagimos com a tecnologia</p>
-            <button className="cta-button">Saiba Mais</button>
+            <h1>Inteligência Artificial<br />Reinventada</h1>
+            <p>Descubra uma nova era de possibilidades com nossos agentes de IA, projetados para transformar a maneira como interagimos com a tecnologia.</p>
+            <button className="cta-button">Explorar</button>
           </div>
         </section>
 
         <section id="sobre" className="about">
-          <h2>Sobre Agentes de IA</h2>
+          <h2>Sobre</h2>
           <div className="about-content">
-            <p>Os agentes de IA são sistemas inteligentes capazes de perceber seu ambiente, tomar decisões e executar ações para atingir objetivos específicos.</p>
+            <p>Nossos agentes de IA representam a vanguarda da tecnologia, combinando sofisticação e eficiência para criar soluções inteligentes que transcendem as expectativas convencionais.</p>
           </div>
         </section>
 
         <section id="recursos" className="features">
-          <h2>Recursos Principais</h2>
+          <h2>Recursos</h2>
           <div className="features-grid">
             <div className="feature-card">
-              <h3>Automação Inteligente</h3>
-              <p>Automatize tarefas complexas com agentes de IA</p>
+              <h3>Automação Elegante</h3>
+              <p>Transforme processos complexos em experiências fluidas e intuitivas.</p>
             </div>
             <div className="feature-card">
-              <h3>Aprendizado Contínuo</h3>
-              <p>Melhoria constante através do aprendizado de máquina</p>
+              <h3>Evolução Constante</h3>
+              <p>Aprenda e adapte-se continuamente para oferecer resultados excepcionais.</p>
             </div>
             <div className="feature-card">
-              <h3>Tomada de Decisão</h3>
-              <p>Decisões baseadas em dados e análise avançada</p>
+              <h3>Decisões Refinadas</h3>
+              <p>Análise precisa e tomada de decisão baseada em dados avançados.</p>
             </div>
           </div>
         </section>
 
         <section id="contato" className="contact">
-          <h2>Entre em Contato</h2>
+          <h2>Contato</h2>
           <form className="contact-form">
-            <input type="text" placeholder="Seu Nome" />
-            <input type="email" placeholder="Seu Email" />
-            <textarea placeholder="Sua Mensagem"></textarea>
+            <input type="text" placeholder="Nome" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Mensagem"></textarea>
             <button type="submit">Enviar</button>
           </form>
         </section>
       </main>
 
       <footer className="footer">
-        <p>&copy; 2024 AI Agents. Todos os direitos reservados.</p>
+        <p>&copy; 2024 AI AGENTS</p>
       </footer>
     </div>
   )
